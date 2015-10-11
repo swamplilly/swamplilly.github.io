@@ -74,7 +74,10 @@ window.onload = function()
 			"I never felt so lucky until I met you, " + p + ".",
 			"It's always so great to see you, " + p + "! I'm glad you're here.",
 			"I hope you find everything you're looking for, " + p + "! You deserve the best.",
-			p + ", you are so capable! Keep pushing forward. I know you can do it."
+			p + ", you are so capable! Keep pushing forward. I know you can do it.",
+			"I know everything will work out in the end, " + p + ". Don't worry!",
+			"I admire everything you've done so far, " + p + ". Don't ever stop!",
+			"You make me smile, " + p + "!"
 		];
 		x.innerHTML = compliments[Math.floor(Math.random() * compliments.length)];
 		x.style.textAlign = "center";
