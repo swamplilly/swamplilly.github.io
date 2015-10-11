@@ -1,5 +1,7 @@
 window.onload = function()
 {
+	var x = document.getElementById("geotest");
+	
 	function getRandomColor()
 	{
 		var letters = '0123456789ABCDEF'.split('');
