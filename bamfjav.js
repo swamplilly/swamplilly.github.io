@@ -78,6 +78,7 @@ window.onload = function()
 			"I know everything will work out in the end, " + p + ". Don't worry!",
 			"I admire everything you've done so far, " + p + ". Don't ever stop!",
 			"You make me smile, " + p + "!"
+			"Remember to stay positive, " + p + "! Work hard, do your best, and make it happen!"
 		];
 		x.innerHTML = compliments[Math.floor(Math.random() * compliments.length)];
 		x.style.textAlign = "center";
