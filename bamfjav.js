@@ -1,7 +1,5 @@
 window.onload = function()
 {
-	var x = document.getElementById("geotest");
-
 	function getRandomColor()
 	{
 		var letters = '0123456789ABCDEF'.split('');
@@ -77,9 +75,11 @@ window.onload = function()
 			p + ", you are so capable! Keep pushing forward. I know you can do it.",
 			"I know everything will work out in the end, " + p + ". Don't worry!",
 			"I admire everything you've done so far, " + p + ". Don't ever stop!",
-			"You make me smile, " + p + "!"
+			"You make me smile, " + p + "!",
 			"Remember to stay positive, " + p + "! Work hard, do your best, and make it happen!"
 		];
+
+		var x = document.getElementById("geotest");
 		x.innerHTML = compliments[Math.floor(Math.random() * compliments.length)];
 		x.style.textAlign = "center";
 		x.style.verticalAlign = "middle";
